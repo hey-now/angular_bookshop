@@ -19,8 +19,4 @@ export class BooksComponent implements OnInit {
 
 
   cart: Book [] = [];
-
-  addToCart(book: Book) {
-    console.log(book);
-  }
 }
