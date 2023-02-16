@@ -32,5 +32,11 @@ books: Book[] = [
     image: 'https://m.media-amazon.com/images/I/71mThCBp59L.jpg',
     price: 50.99
   },
-]
+];
+
+cart: Book [] = [];
+
+addToCart(book: Book) {
+  console.log(book);
+}
 }
